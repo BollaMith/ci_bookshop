@@ -15,6 +15,8 @@
   <h1><?php echo $pageName; ?></h1>
   <p><?php echo $Info; ?></p> 
 	<p>Hello Page</p>
+		<p>Hello Page</p>
+		<p>Hello Page</p>
 </div>
   
 <div class="container">
