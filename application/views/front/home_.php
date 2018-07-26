@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD:application/views/front/home_.php
 
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/assets/lib/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/assets/lib/font-awesome/css/font-awesome.min.css" />
@@ -20,6 +21,11 @@
 		$this->load->view('include/head_script_home');
    ?> 
 
+=======
+   <?php 
+		$this->load->view('include/head_script_home');
+   ?> 
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
     <title>Kute shop - themelock.com</title>
 </head>
 <body class="home">
@@ -35,6 +41,7 @@
 </div>-->
 <!-- HEADER -->
 <div id="header" class="header">
+<<<<<<< HEAD:application/views/front/home_.php
 
     <div class="top-header">
         <div class="container">
@@ -565,6 +572,8 @@
         </div>
     </div>
 =======
+=======
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
 	<?php $this->load->view('include/top_header'); ?>
     <!--/.top-header -->
 
@@ -574,7 +583,6 @@
     <!-- END MANIN HEADER -->
    <?php  $this->load->view('include/nav_top_menu'); ?>
 
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
 </div>
 <!-- end header -->
 <!-- Home slideder-->
@@ -586,24 +594,14 @@
                 <div class="homeslider">
                     <div class="content-slide">
                         <ul id="contenhomeslider">
-<<<<<<< HEAD
-                          <li><img alt="Funky roots" src="assets/data/slide.jpg" title="Funky roots" /></li>
-                          <li><img alt="Funky roots" src="assets/data/slide.jpg" title="Funky roots" /></li>
-                          <li><img  alt="Funky roots" src="assets/data/slide.jpg" title="Funky roots" /></li>
-=======
                           <li><img alt="Funky roots" src="<?php echo base_url(); ?>uploads/products/slide.jpg" title="Funky roots" /></li>
                           <li><img alt="Funky roots" src="<?php echo base_url(); ?>uploads/products/slide.jpg" title="Funky roots" /></li>
                           <li><img  alt="Funky roots" src="<?php echo base_url(); ?>uploads/products/slide.jpg" title="Funky roots" /></li>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                         </ul>
                     </div>
                 </div>
                 <div class="header-banner banner-opacity">
-<<<<<<< HEAD
-                    <a href="#"><img alt="Funky roots" src="assets/data/ads1.jpg" /></a>
-=======
                     <a href="#"><img alt="Funky roots" src="<?php echo base_url(); ?>uploads/products/ads1.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
             </div>
         </div>
@@ -615,11 +613,7 @@
     <div class="service ">
         <div class="col-xs-6 col-sm-3 service-item">
             <div class="icon">
-<<<<<<< HEAD
-                <img alt="services" src="assets/data/s1.png" />
-=======
                 <img alt="services" src="<?php echo base_url(); ?>uploads/products/s1.png" />
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
             </div>
             <div class="info">
                 <a href="#"><h3>Free Shipping</h3></a>
@@ -628,11 +622,7 @@
         </div>
         <div class="col-xs-6 col-sm-3 service-item">
             <div class="icon">
-<<<<<<< HEAD
-                <img alt="services" src="assets/data/s2.png" />
-=======
                 <img alt="services" src="<?php echo base_url(); ?>uploads/products/s2.png" />
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
             </div>
             <div class="info">
                 <a href="#"><h3>30-day return</h3></a>
@@ -641,11 +631,7 @@
         </div>
         <div class="col-xs-6 col-sm-3 service-item">
             <div class="icon">
-<<<<<<< HEAD
-                <img alt="services" src="assets/data/s3.png" />
-=======
                 <img alt="services" src="<?php echo base_url(); ?>uploads/products/s3.png" />
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
             </div>
             
             <div class="info" >
@@ -655,11 +641,15 @@
         </div>
         <div class="col-xs-6 col-sm-3 service-item">
             <div class="icon">
+<<<<<<< HEAD:application/views/front/home_.php
 
                 <img alt="services" src="assets/data/s4.png" />
 
                 <img alt="services" src="<?php echo base_url(); ?>uploads/products/s4.png" />
 
+=======
+                <img alt="services" src="<?php echo base_url(); ?>uploads/products/s4.png" />
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
             </div>
             <div class="info">
                 <a href="#"><h3>SAFE SHOPPING</h3></a>
@@ -686,11 +676,15 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
 
                                                 <img class="img-responsive" alt="product" src="assets/data/bs1.jpg" />
 
                                                 <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs1.jpg" />
 
+=======
+                                                <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs1.jpg" />
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             </a>
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
@@ -722,11 +716,15 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
 
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/bs2.jpg" /></a>
 
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs2.jpg" /></a>
 
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs2.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -753,7 +751,10 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/bs3.jpg" /></a>
+=======
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs3.jpg" /></a>
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
@@ -784,7 +785,10 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/bs4.jpg" /></a>
+=======
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs4.jpg" /></a>
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
@@ -817,7 +821,10 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/p48.jpg" /></a>
+=======
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p48.jpg" /></a>
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
@@ -846,7 +853,10 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/p49.jpg" /></a>
+=======
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p49.jpg" /></a>
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
@@ -874,7 +884,10 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p50.jpg" /></a>
+=======
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p50.jpg" /></a>
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
@@ -902,7 +915,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p51.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p51.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -933,7 +950,11 @@
                                 <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "30" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":3}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p60.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p60.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -960,7 +981,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p61.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p61.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -987,7 +1012,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p62.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p62.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1014,7 +1043,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p63.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p63.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1052,7 +1085,11 @@
                             <li>
                                 <div class="count-down-time" data-countdown="2015/06/27"></div>
                                 <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                     <a href="#"><img class="img-responsive" alt="product" src="assets/data/ld1.jpg" /></a>
+=======
+                                    <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/ld1.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                     <div class="quick-view">
                                             <a title="Add to my wishlist" class="heart" href="#"></a>
                                             <a title="Add to compare" class="compare" href="#"></a>
@@ -1074,7 +1111,11 @@
                             <li>
                                 <div class="count-down-time" data-countdown="2015/06/27 9:20:00"></div>
                                 <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                     <a href="#"><img class="img-responsive" alt="product" src="assets/data/ld2.jpg" /></a>
+=======
+                                    <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/ld2.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                     <div class="quick-view">
                                             <a title="Add to my wishlist" class="heart" href="#"></a>
                                             <a title="Add to compare" class="compare" href="#"></a>
@@ -1096,7 +1137,11 @@
                             <li>
                                 <div class="count-down-time" data-countdown="2015/06/27 9:20:00"></div>
                                 <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                     <a href="#"><img class="img-responsive" alt="product" src="assets/data/ld3.jpg" /></a>
+=======
+                                    <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/ld3.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                     <div class="quick-view">
                                             <a title="Add to my wishlist" class="heart" href="#"></a>
                                             <a title="Add to compare" class="compare" href="#"></a>
@@ -1130,7 +1175,11 @@
             <nav class="navbar nav-menu nav-menu-red show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
+<<<<<<< HEAD:application/views/front/home_.php
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/fashion.png" />fashion</a></div>
+=======
+                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/fashion.png" />fashion</a></div>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -1151,17 +1200,28 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
+<<<<<<< HEAD:application/views/front/home_.php
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads2.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads3.jpg" /></a>
+=======
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads2.jpg" /></a>
+                </div>
+                <div class="col-sm-6 banner">
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads3.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
+<<<<<<< HEAD:application/views/front/home_.php
                         <a href="#"><img alt="Featurered 1" src="assets/data/f1.jpg" /></a>
+=======
+                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f1.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -1173,7 +1233,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/01_blue-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/01_blue-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1201,7 +1265,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/02_yellow-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/02_yellow-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1229,7 +1297,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/03_cyan-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/03_cyan-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1257,7 +1329,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/04_nice-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/04_nice-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1285,7 +1361,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/05_flowers-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/05_flowers-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1313,7 +1393,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/06_red-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/06_red-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1346,7 +1430,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/04_nice-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/04_nice-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1374,7 +1462,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/05_flowers-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/05_flowers-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1402,7 +1494,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/06_red-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/06_red-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1430,7 +1526,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/01_blue-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/01_blue-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1458,7 +1558,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/02_yellow-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/02_yellow-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1486,7 +1590,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/03_cyan-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/03_cyan-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1514,7 +1622,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/04_nice-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/04_nice-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1542,7 +1654,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/05_flowers-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/05_flowers-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1570,7 +1686,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <img class="img-responsive" alt="product" src="assets/data/06_red-dress.jpg" /></a>
+=======
+                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/06_red-dress.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1609,7 +1729,11 @@
             <nav class="navbar nav-menu nav-menu-green show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
+<<<<<<< HEAD:application/views/front/home_.php
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/sports.png" />sports</a></div>
+=======
+                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/sports.png" />sports</a></div>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -1630,17 +1754,28 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
+<<<<<<< HEAD:application/views/front/home_.php
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads6.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads7.jpg" /></a>
+=======
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads6.jpg" /></a>
+                </div>
+                <div class="col-sm-6 banner">
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads7.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
+<<<<<<< HEAD:application/views/front/home_.php
                         <a href="#"><img alt="Featurered 1" src="assets/data/f2.jpg" /></a>
+=======
+                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f2.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -1651,7 +1786,11 @@
                                 <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p14.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p14.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1678,7 +1817,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p15.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p15.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1705,7 +1848,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p16.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p16.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1732,7 +1879,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p14.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p14.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1759,7 +1910,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p17.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p17.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1786,7 +1941,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p14.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p14.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1819,7 +1978,11 @@
 
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p17.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p17.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1846,7 +2009,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p16.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p16.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1873,7 +2040,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p15.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p15.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1900,7 +2071,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p17.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p17.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1927,7 +2102,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p14.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p14.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1954,7 +2133,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p17.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p17.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1993,7 +2176,11 @@
             <nav class="navbar nav-menu nav-menu-orange show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
+<<<<<<< HEAD:application/views/front/home_.php
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/electronic.png" />electronic</a></div>
+=======
+                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/electronic.png" />electronic</a></div>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -2014,17 +2201,28 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
+<<<<<<< HEAD:application/views/front/home_.php
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads8.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads9.jpg" /></a>
+=======
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads8.jpg" /></a>
+                </div>
+                <div class="col-sm-6 banner">
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads9.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
+<<<<<<< HEAD:application/views/front/home_.php
                         <a href="#"><img alt="Featurered 1" src="assets/data/f3.jpg" /></a>
+=======
+                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f3.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -2035,7 +2233,11 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav="true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p18.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p18.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2062,7 +2264,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p19.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p19.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2089,7 +2295,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p20.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p20.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2116,7 +2326,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p18.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p18.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2143,7 +2357,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p21.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p21.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2175,7 +2393,11 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p21.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p21.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2202,7 +2424,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p21.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p21.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2229,7 +2455,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p20.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p20.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2256,7 +2486,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p19.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p19.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2283,7 +2517,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p18.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p18.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2322,7 +2560,11 @@
             <nav class="navbar nav-menu nav-menu-blue show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
+<<<<<<< HEAD:application/views/front/home_.php
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/digital.png" />Digital</a></div>
+=======
+                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/digital.png" />Digital</a></div>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -2343,17 +2585,28 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
+<<<<<<< HEAD:application/views/front/home_.php
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads10.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads11.jpg" /></a>
+=======
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads10.jpg" /></a>
+                </div>
+                <div class="col-sm-6 banner">
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads11.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
+<<<<<<< HEAD:application/views/front/home_.php
                         <a href="#"><img alt="Featurered 1" src="assets/data/f4.jpg" /></a>
+=======
+                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f4.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -2364,7 +2617,11 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p22.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p22.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2391,7 +2648,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2418,7 +2679,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p24.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p24.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2445,7 +2710,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p25.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p25.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2472,7 +2741,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2504,7 +2777,11 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p25.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p25.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2531,7 +2808,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p24.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p24.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2558,7 +2839,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2585,7 +2870,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2612,7 +2901,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p22.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p22.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2639,7 +2932,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2678,7 +2975,11 @@
             <nav class="navbar nav-menu nav-menu-blue2 show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
+<<<<<<< HEAD:application/views/front/home_.php
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/furniture.png" />furniture</a></div>
+=======
+                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/furniture.png" />furniture</a></div>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -2699,17 +3000,28 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
+<<<<<<< HEAD:application/views/front/home_.php
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads12.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads13.jpg" /></a>
+=======
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads12.jpg" /></a>
+                </div>
+                <div class="col-sm-6 banner">
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads13.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
+<<<<<<< HEAD:application/views/front/home_.php
                         <a href="#"><img alt="Featurered 1" src="assets/data/f5.jpg" /></a>
+=======
+                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f5.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -2720,7 +3032,11 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p26.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p26.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2747,7 +3063,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p27.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p27.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2774,7 +3094,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p28.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p28.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2801,7 +3125,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p29.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p29.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2828,7 +3156,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p28.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p28.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2860,7 +3192,11 @@
                                 <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p29.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p29.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2887,7 +3223,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p28.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p28.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2914,7 +3254,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p28.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p28.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2941,7 +3285,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p27.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p27.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2968,7 +3316,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p26.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p26.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3007,7 +3359,11 @@
             <nav class="navbar nav-menu nav-menu-gray show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
+<<<<<<< HEAD:application/views/front/home_.php
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/jewelry.png" />jewelry</a></div>
+=======
+                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/jewelry.png" />jewelry</a></div>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -3028,17 +3384,28 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
+<<<<<<< HEAD:application/views/front/home_.php
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads14.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads15.jpg" /></a>
+=======
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads14.jpg" /></a>
+                </div>
+                <div class="col-sm-6 banner">
+                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads15.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
+<<<<<<< HEAD:application/views/front/home_.php
                         <a href="#"><img alt="Featurered 1" src="assets/data/f6.jpg" /></a>
+=======
+                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f6.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -3049,7 +3416,11 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p30.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p30.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3076,7 +3447,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3103,7 +3478,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p32.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p32.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3131,7 +3510,11 @@
 
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p33.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p33.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3158,7 +3541,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3190,7 +3577,11 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p33.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p33.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3217,7 +3608,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3244,7 +3639,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3271,7 +3670,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
+<<<<<<< HEAD:application/views/front/home_.php
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p32.jpg" /></a>
+=======
+                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p32.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3364,7 +3767,11 @@
         <div class="row banner-bottom">
             <div class="col-sm-6">
                 <div class="banner-boder-zoom">
+<<<<<<< HEAD:application/views/front/home_.php
                     <a href="#"><img alt="ads" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads17.jpg" /></a>
+=======
+                    <a href="#"><img alt="ads" class="img-responsive" src="assets/data/ads17.jpg" /></a>
+>>>>>>> 031aeb766e34d6d655be4b4408036ce97f7f8a9c:application/views/front/home.php
                 </div>
             </div>
             <div class="col-sm-6">
