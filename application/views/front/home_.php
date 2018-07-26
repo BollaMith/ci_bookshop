@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
+
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/assets/lib/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/assets/lib/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/assets/lib/select2/css/select2.min.css" />
@@ -15,11 +15,11 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/assets/css/responsive.css" />
     
-=======
+
    <?php 
 		$this->load->view('include/head_script_home');
    ?> 
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
+
     <title>Kute shop - themelock.com</title>
 </head>
 <body class="home">
@@ -35,7 +35,7 @@
 </div>-->
 <!-- HEADER -->
 <div id="header" class="header">
-<<<<<<< HEAD
+
     <div class="top-header">
         <div class="container">
             <div class="nav-top-links">
@@ -655,11 +655,11 @@
         </div>
         <div class="col-xs-6 col-sm-3 service-item">
             <div class="icon">
-<<<<<<< HEAD
+
                 <img alt="services" src="assets/data/s4.png" />
-=======
+
                 <img alt="services" src="<?php echo base_url(); ?>uploads/products/s4.png" />
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
+
             </div>
             <div class="info">
                 <a href="#"><h3>SAFE SHOPPING</h3></a>
@@ -686,11 +686,11 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
+
                                                 <img class="img-responsive" alt="product" src="assets/data/bs1.jpg" />
-=======
+
                                                 <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs1.jpg" />
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
+
                                             </a>
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
@@ -722,11 +722,11 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
+
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/bs2.jpg" /></a>
-=======
+
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs2.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
+
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -753,11 +753,8 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/bs3.jpg" /></a>
-=======
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs3.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -787,11 +784,8 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/bs4.jpg" /></a>
-=======
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/bs4.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -823,11 +817,8 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/p48.jpg" /></a>
-=======
                                             <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p48.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -855,11 +846,8 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/p49.jpg" /></a>
-=======
                                             <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p49.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -886,11 +874,8 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p50.jpg" /></a>
-=======
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p50.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -917,11 +902,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p51.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p51.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -952,11 +933,7 @@
                                 <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "30" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":3}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p60.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p60.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -983,11 +960,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p61.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p61.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1014,11 +987,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p62.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p62.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1045,11 +1014,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p63.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p63.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1087,11 +1052,7 @@
                             <li>
                                 <div class="count-down-time" data-countdown="2015/06/27"></div>
                                 <div class="left-block">
-<<<<<<< HEAD
                                     <a href="#"><img class="img-responsive" alt="product" src="assets/data/ld1.jpg" /></a>
-=======
-                                    <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/ld1.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                     <div class="quick-view">
                                             <a title="Add to my wishlist" class="heart" href="#"></a>
                                             <a title="Add to compare" class="compare" href="#"></a>
@@ -1113,11 +1074,7 @@
                             <li>
                                 <div class="count-down-time" data-countdown="2015/06/27 9:20:00"></div>
                                 <div class="left-block">
-<<<<<<< HEAD
                                     <a href="#"><img class="img-responsive" alt="product" src="assets/data/ld2.jpg" /></a>
-=======
-                                    <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/ld2.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                     <div class="quick-view">
                                             <a title="Add to my wishlist" class="heart" href="#"></a>
                                             <a title="Add to compare" class="compare" href="#"></a>
@@ -1139,11 +1096,7 @@
                             <li>
                                 <div class="count-down-time" data-countdown="2015/06/27 9:20:00"></div>
                                 <div class="left-block">
-<<<<<<< HEAD
                                     <a href="#"><img class="img-responsive" alt="product" src="assets/data/ld3.jpg" /></a>
-=======
-                                    <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/ld3.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                     <div class="quick-view">
                                             <a title="Add to my wishlist" class="heart" href="#"></a>
                                             <a title="Add to compare" class="compare" href="#"></a>
@@ -1177,11 +1130,7 @@
             <nav class="navbar nav-menu nav-menu-red show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-<<<<<<< HEAD
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/fashion.png" />fashion</a></div>
-=======
-                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/fashion.png" />fashion</a></div>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -1202,28 +1151,17 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
-<<<<<<< HEAD
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads2.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads3.jpg" /></a>
-=======
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads2.jpg" /></a>
-                </div>
-                <div class="col-sm-6 banner">
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads3.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
-<<<<<<< HEAD
                         <a href="#"><img alt="Featurered 1" src="assets/data/f1.jpg" /></a>
-=======
-                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f1.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -1235,11 +1173,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/01_blue-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/01_blue-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1267,11 +1201,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/02_yellow-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/02_yellow-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1299,11 +1229,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/03_cyan-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/03_cyan-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1331,11 +1257,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/04_nice-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/04_nice-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1363,11 +1285,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/05_flowers-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/05_flowers-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1395,11 +1313,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/06_red-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/06_red-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1432,11 +1346,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/04_nice-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/04_nice-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1464,11 +1374,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/05_flowers-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/05_flowers-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1496,11 +1402,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/06_red-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/06_red-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1528,11 +1430,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/01_blue-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/01_blue-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1560,11 +1458,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/02_yellow-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/02_yellow-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1592,11 +1486,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/03_cyan-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/03_cyan-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1624,11 +1514,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/04_nice-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/04_nice-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1656,11 +1542,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/05_flowers-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/05_flowers-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1688,11 +1570,7 @@
                                     <li>
                                         <div class="left-block">
                                             <a href="#">
-<<<<<<< HEAD
                                             <img class="img-responsive" alt="product" src="assets/data/06_red-dress.jpg" /></a>
-=======
-                                            <img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/06_red-dress.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1731,11 +1609,7 @@
             <nav class="navbar nav-menu nav-menu-green show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-<<<<<<< HEAD
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/sports.png" />sports</a></div>
-=======
-                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/sports.png" />sports</a></div>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -1756,28 +1630,17 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
-<<<<<<< HEAD
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads6.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads7.jpg" /></a>
-=======
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads6.jpg" /></a>
-                </div>
-                <div class="col-sm-6 banner">
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads7.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
-<<<<<<< HEAD
                         <a href="#"><img alt="Featurered 1" src="assets/data/f2.jpg" /></a>
-=======
-                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f2.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -1788,11 +1651,7 @@
                                 <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p14.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p14.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1819,11 +1678,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p15.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p15.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1850,11 +1705,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p16.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p16.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1881,11 +1732,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p14.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p14.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1912,11 +1759,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p17.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p17.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1943,11 +1786,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p14.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p14.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -1980,11 +1819,7 @@
 
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p17.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p17.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2011,11 +1846,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p16.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p16.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2042,11 +1873,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p15.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p15.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2073,11 +1900,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p17.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p17.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2104,11 +1927,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p14.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p14.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2135,11 +1954,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p17.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p17.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2178,11 +1993,7 @@
             <nav class="navbar nav-menu nav-menu-orange show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-<<<<<<< HEAD
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/electronic.png" />electronic</a></div>
-=======
-                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/electronic.png" />electronic</a></div>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -2203,28 +2014,17 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
-<<<<<<< HEAD
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads8.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads9.jpg" /></a>
-=======
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads8.jpg" /></a>
-                </div>
-                <div class="col-sm-6 banner">
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads9.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
-<<<<<<< HEAD
                         <a href="#"><img alt="Featurered 1" src="assets/data/f3.jpg" /></a>
-=======
-                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f3.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -2235,11 +2035,7 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav="true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p18.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p18.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2266,11 +2062,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p19.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p19.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2297,11 +2089,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p20.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p20.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2328,11 +2116,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p18.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p18.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2359,11 +2143,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p21.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p21.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2395,11 +2175,7 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p21.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p21.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2426,11 +2202,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p21.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p21.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2457,11 +2229,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p20.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p20.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2488,11 +2256,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p19.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p19.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2519,11 +2283,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p18.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p18.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2562,11 +2322,7 @@
             <nav class="navbar nav-menu nav-menu-blue show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-<<<<<<< HEAD
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/digital.png" />Digital</a></div>
-=======
-                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/digital.png" />Digital</a></div>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -2587,28 +2343,17 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
-<<<<<<< HEAD
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads10.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads11.jpg" /></a>
-=======
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads10.jpg" /></a>
-                </div>
-                <div class="col-sm-6 banner">
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads11.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
-<<<<<<< HEAD
                         <a href="#"><img alt="Featurered 1" src="assets/data/f4.jpg" /></a>
-=======
-                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f4.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -2619,11 +2364,7 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p22.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p22.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2650,11 +2391,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2681,11 +2418,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p24.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p24.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2712,11 +2445,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p25.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p25.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2743,11 +2472,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2779,11 +2504,7 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p25.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p25.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2810,11 +2531,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p24.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p24.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2841,11 +2558,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2872,11 +2585,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2903,11 +2612,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p22.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p22.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2934,11 +2639,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p23.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p23.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -2977,11 +2678,7 @@
             <nav class="navbar nav-menu nav-menu-blue2 show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-<<<<<<< HEAD
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/furniture.png" />furniture</a></div>
-=======
-                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/furniture.png" />furniture</a></div>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -3002,28 +2699,17 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
-<<<<<<< HEAD
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads12.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads13.jpg" /></a>
-=======
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads12.jpg" /></a>
-                </div>
-                <div class="col-sm-6 banner">
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads13.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
-<<<<<<< HEAD
                         <a href="#"><img alt="Featurered 1" src="assets/data/f5.jpg" /></a>
-=======
-                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f5.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -3034,11 +2720,7 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p26.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p26.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3065,11 +2747,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p27.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p27.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3096,11 +2774,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p28.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p28.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3127,11 +2801,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p29.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p29.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3158,11 +2828,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p28.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p28.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3194,11 +2860,7 @@
                                 <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p29.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p29.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3225,11 +2887,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p28.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p28.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3256,11 +2914,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p28.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p28.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3287,11 +2941,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p27.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p27.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3318,11 +2968,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p26.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p26.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3361,11 +3007,7 @@
             <nav class="navbar nav-menu nav-menu-gray show-brand">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-<<<<<<< HEAD
                   <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/jewelry.png" />jewelry</a></div>
-=======
-                  <div class="navbar-brand"><a href="#"><img alt="fashion" src="<?php echo base_url(); ?>uploads/products/jewelry.png" />jewelry</a></div>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                   <span class="toggle-menu"></span>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">           
@@ -3386,28 +3028,17 @@
             </nav>
             <div class="category-banner">
                 <div class="col-sm-6 banner">
-<<<<<<< HEAD
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads14.jpg" /></a>
                 </div>
                 <div class="col-sm-6 banner">
                     <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads15.jpg" /></a>
-=======
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads14.jpg" /></a>
-                </div>
-                <div class="col-sm-6 banner">
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads15.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
            </div>
            <div class="product-featured clearfix">
                 <div class="banner-featured">
                     <div class="featured-text"><span>featured</span></div>
                     <div class="banner-img">
-<<<<<<< HEAD
                         <a href="#"><img alt="Featurered 1" src="assets/data/f6.jpg" /></a>
-=======
-                        <a href="#"><img alt="Featurered 1" src="<?php echo base_url(); ?>uploads/products/f6.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                     </div>
                 </div>
                 <div class="product-featured-content">
@@ -3418,11 +3049,7 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p30.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p30.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3449,11 +3076,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3480,11 +3103,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p32.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p32.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3512,11 +3131,7 @@
 
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p33.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p33.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3543,11 +3158,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3579,11 +3190,7 @@
                                 <ul class="product-list owl-carousel"  data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p33.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p33.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3610,11 +3217,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3641,11 +3244,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3672,11 +3271,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
                                             <a href="#"><img class="img-responsive" alt="product" src="assets/data/p32.jpg" /></a>
-=======
-                                            <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p32.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3703,11 +3298,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
-                                            <a href="#"><img class="img-responsive" alt="product" src="assets/data/p31.jpg" /></a>
-=======
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p31.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3734,11 +3325,7 @@
                                     </li>
                                     <li>
                                         <div class="left-block">
-<<<<<<< HEAD
-                                            <a href="#"><img class="img-responsive" alt="product" src="assets/data/p30.jpg" /></a>
-=======
                                             <a href="#"><img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p30.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                                             <div class="quick-view">
                                                     <a title="Add to my wishlist" class="heart" href="#"></a>
                                                     <a title="Add to compare" class="compare" href="#"></a>
@@ -3777,20 +3364,12 @@
         <div class="row banner-bottom">
             <div class="col-sm-6">
                 <div class="banner-boder-zoom">
-<<<<<<< HEAD
-                    <a href="#"><img alt="ads" class="img-responsive" src="assets/data/ads17.jpg" /></a>
-=======
                     <a href="#"><img alt="ads" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads17.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="banner-boder-zoom">
-<<<<<<< HEAD
-                    <a href="#"><img alt="ads" class="img-responsive" src="assets/data/ads18.jpg" /></a>
-=======
                     <a href="#"><img alt="ads" class="img-responsive" src="<?php echo base_url(); ?>uploads/products/ads18.jpg" /></a>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
                 </div>
             </div>
         </div>
@@ -3798,1343 +3377,6 @@
     </div>
 </div>
 
-<<<<<<< HEAD
-<div class="container">
-    <div class="brand-showcase">
-        <h2 class="brand-showcase-title">
-            brand showcase
-        </h2>
-        <div class="brand-showcase-box">
-            <ul class="brand-showcase-logo owl-carousel" data-loop="true" data-nav = "true" data-dots="false" data-margin = "1" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":2},"600":{"items":5},"1000":{"items":8}}'>
-                <li data-tab="showcase-1" class="item active"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-                <li data-tab="showcase-2" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-                <li data-tab="showcase-3" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-                <li data-tab="showcase-4" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-                <li data-tab="showcase-5" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-                <li data-tab="showcase-6" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-                <li data-tab="showcase-7" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-                <li data-tab="showcase-8" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-                <li data-tab="showcase-9" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
-            </ul>
-            <div class="brand-showcase-content">
-                <div class="brand-showcase-content-tab active" id="showcase-1">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p24.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p25.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p26.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p27.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="brand-showcase-content-tab" id="showcase-2">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p10.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p11.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p12.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p13.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="brand-showcase-content-tab" id="showcase-3">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p14.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p15.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p16.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p17.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="brand-showcase-content-tab" id="showcase-4">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p18.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p19.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p20.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p21.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="brand-showcase-content-tab" id="showcase-5">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p22.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p23.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p24.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p25.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="brand-showcase-content-tab" id="showcase-6">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p26.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p27.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p28.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p29.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="brand-showcase-content-tab" id="showcase-7">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p30.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p31.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p32.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p15.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="brand-showcase-content-tab" id="showcase-8">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p25.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p21.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p10.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p23.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="brand-showcase-content-tab" id="showcase-9">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 trademark-info">
-                            <div class="trademark-logo">
-                                <a href="#"><img src="assets/data/trademark.jpg" alt="trademark"></a>
-                            </div>
-                            <div class="trademark-desc">
-                                Whatever the occasion, complete your outfit with one of Hermes Fashion’s stylish women’s bags. Discover our spring collection.
-                            </div>
-                            <a href="#" class="trademark-link">shop this brand</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 trademark-product">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-repon" src="assets/data/p24.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p14.jpg" alt=""></a>
-                                    </div>
-                                    <div class="image-product hover-zoom">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p30.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 product-item">
-                                    <div class="image-product hover-zoom">
-                                        <a href="#"><img class="img-responsive" src="assets/data/p29.jpg" alt=""></a>
-                                    </div>
-                                    <div class="info-product">
-                                        <a href="#">
-                                            <h5>Maecenas consequat mauris</h5>
-                                        </a>
-                                        <span class="product-price">$38.87</span>
-                                        <div class="product-star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <a class="btn-view-more" title="View More" href="#">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</div>
-
-<div id="content-wrap">
-    <div class="container">
-        <div id="hot-categories" class="row">
-            <div class="col-sm-12 group-title-box">
-                <h2 class="group-title ">
-                    <span>Hot categories</span>
-                </h2>
-            </div>
-            
-            <div class="col-sm-6  col-lg-3 cate-box">
-                <div class="cate-tit" >
-                    <div class="div-1" style="width: 46%;">
-                        <div class="cate-name-wrap">
-                            <p class="cate-name">Electronics</p>
-                        </div>
-                        <a href="" class="cate-link link-active" data-ac="flipInX" ><span>shop now</span></a>
-                    </div>
-                    <div class="div-2" >
-                        <a href="#">
-                            <img src="assets/data/cate-product1.png" alt="Electronics" class="hot-cate-img" />
-                        </a>
-                    </div>
-                    
-                </div>
-                <div class="cate-content">
-                    <ul>
-                        <li><a href="#">Batteries & Chargers</a></li>
-                        <li><a href="#">Headphone, Headset</a></li>
-                        <li><a href="#">Home Audio</a></li>
-                        <li><a href="#">Mp3 Player Accessories</a></li>
-                    </ul>
-                </div>
-            </div> <!-- /.cate-box -->
-            
-            <div class="col-sm-6  col-lg-3 cate-box">
-                <div class="cate-tit" >
-                    <div class="div-1" style="width: 46%;">
-                        <div class="cate-name-wrap">
-                            <p class="cate-name">Sport & Outdoors</p>
-                        </div>
-                        <a href="" class="cate-link" data-ac="flipInX" ><span>shop now</span></a>
-                    </div>
-                    <div class="div-2" >
-                        <a href="#">
-                            <img src="assets/data/cate-product2.png" alt="Electronics" class="hot-cate-img" />
-                        </a>
-                    </div>
-                </div>
-                <div class="cate-content">
-                    <ul>
-                        <li><a href="#">Golf Supplies</a></li>
-                        <li><a href="#">Outdoor & Traveling Supplies</a></li>
-                        <li><a href="#">Camping & Hiking</a></li>
-                        <li><a href="#">Fishing</a></li>
-                    </ul>
-                </div>
-            </div> <!-- /.cate-box -->
-            <div class="col-sm-6  col-lg-3 cate-box">
-                <div class="cate-tit" >
-                    <div class="div-1" style="width: 46%;">
-                        <div class="cate-name-wrap">
-                            <p class="cate-name">Fashion</p>
-                        </div>
-                        <a href="" class="cate-link" data-ac="flipInX" ><span>shop now</span></a>
-                    </div>
-                    <div class="div-2" >
-                        <a href="#">
-                            <img src="assets/data/cate-product3.png" alt="Electronics" class="hot-cate-img"/>
-                        </a>
-                    </div>
-                    
-                </div>
-                <div class="cate-content">
-                    <ul>
-                        <li><a href="#">Batteries & Chargers</a></li>
-                        <li><a href="#">Headphone, Headset</a></li>
-                        <li><a href="#">Home Audio</a></li>
-                        <li><a href="#">Mp3 Player Accessories</a></li>
-                    </ul>
-                </div>
-            </div> <!-- /.cate-box -->
-            <div class="col-sm-6  col-lg-3 cate-box">
-                <div class="cate-tit" >
-                    <div class="div-1" style="width: 46%;">
-                        <div class="cate-name-wrap">
-                            <p class="cate-name">Health & Beauty</p>
-                        </div>
-                        <a href="" class="cate-link" data-ac="flipInX" ><span>shop now</span></a>
-                    </div>
-                    <div class="div-2" >
-                        <a href="#">
-                            <img src="assets/data/cate-product4.png" alt="Electronics" class="hot-cate-img" />
-                        </a>
-                    </div>
-                    
-                </div>
-                <div class="cate-content">
-                    <ul>
-                        <li><a href="#">Bath & Body</a></li>
-                        <li><a href="#">Shaving & Hair Removal</a></li>
-                        <li><a href="#">Fragrances</a></li>
-                        <li><a href="#">Salon & Spa Equipment</a></li>
-                    </ul>
-                </div>
-            </div> <!-- /.cate-box -->
-            <div class="col-sm-6  col-lg-3 cate-box">
-                <div class="cate-tit" >
-                    <div class="div-1" style="width: 46%;">
-                        <div class="cate-name-wrap">
-                            <p class="cate-name">Jewelry & Watches</p>
-                        </div>
-                        <a href="" class="cate-link" data-ac="flipInX" ><span>shop now</span></a>
-                    </div>
-                    <div class="div-2" >
-                        <a href="#">
-                            <img src="assets/data/cate-product5.png" alt="Electronics" class="hot-cate-img" />
-                        </a>
-                    </div>
-                </div>
-                <div class="cate-content">
-                    <ul>
-                        <li><a href="#">Men Watches</a></li>
-                        <li><a href="#">Wedding Rings</a></li>
-                        <li><a href="#">Earring</a></li>
-                        <li><a href="#">Necklaces</a></li>
-                    </ul>
-                </div>
-            </div> <!-- /.cate-box -->
-            
-            <div class="col-sm-6  col-lg-3 cate-box">
-                <div class="cate-tit" >
-                    <div class="div-1" style="width: 46%;">
-                        <div class="cate-name-wrap">
-                            <p class="cate-name">Digital</p>
-                        </div>
-                        <a href="" class="cate-link" data-ac="flipInX" ><span>shop now</span></a>
-                    </div>
-                    <div class="div-2" >
-                        <a href="#">
-                            <img src="assets/data/cate-product6.png" alt="Electronics" class="hot-cate-img" />
-                        </a>
-                    </div>
-                </div>
-                <div class="cate-content">
-                    <ul>
-                        <li><a href="#">Accessories for iPhone</a></li>
-                        <li><a href="#">Accessories for iPad</a></li>
-                        <li><a href="#">Accessories for Tablet PC</a></li>
-                        <li><a href="#">Tablet PC</a></li>
-                    </ul>
-                </div>
-            </div><!-- /.cate-box -->
-            <div class="col-sm-6  col-lg-3 cate-box">
-                <div class="cate-tit" >
-                    <div class="div-1" style="width: 46%;">
-                        <div class="cate-name-wrap">
-                            <p class="cate-name">Furniture</p>
-                        </div>
-                        <a href="" class="cate-link" data-ac="flipInX" ><span>shop now</span></a>
-                    </div>
-                    <div class="div-2" >
-                        <a href="#">
-                            <img src="assets/data/cate-product7.png" alt="Electronics" class="hot-cate-img" />
-                        </a>
-                    </div>
-                    
-                </div>
-                <div class="cate-content">
-                    <ul>
-                        <li><a href="#">Batteries & Chargers</a></li>
-                        <li><a href="#">Headphone, Headset</a></li>
-                        <li><a href="#">Home Audio</a></li>
-                        <li><a href="#">Mp3 Player Accessories</a></li>
-                    </ul>
-                </div>
-            </div> <!-- /.cate-box -->
-            <div class="col-sm-6  col-lg-3 cate-box">
-                <div class="cate-tit" >
-                    <div class="div-1" style="width: 46%;">
-                        <div class="cate-name-wrap">
-                            <p class="cate-name">Toys & Hobbies</p>
-                        </div>
-                        <a href="" class="cate-link" data-ac="flipInX" ><span>shop now</span></a>
-                    </div>
-                    <div class="div-2" >
-                        <a href="#">
-                            <img src="assets/data/cate-product8.png" alt="Electronics" class="hot-cate-img" />
-                        </a>
-                    </div>
-                </div>
-                <div class="cate-content">
-                    <ul>
-                        <li><a href="#">Walkera</a></li>
-                        <li><a href="#">Fpv System & Parts</a></li>
-                        <li><a href="#">RC Cars & Parts</a></li>
-                        <li><a href="#">Helicopters & Part</a></li>
-                    </ul>
-                </div>
-            </div><!-- /.cate-box -->                                                       
-        </div> <!-- /#hot-categories -->
-        
-    </div> <!-- /.container -->
-</div>
-
-<!-- Footer -->
-<footer id="footer">
-     <div class="container">
-            <!-- introduce-box -->
-            <div id="introduce-box" class="row">
-                <div class="col-md-3">
-                    <div id="address-box">
-                        <a href="#"><img src="assets/data/introduce-logo.png" alt="" /></a>
-                        <div id="address-list">
-                            <div class="tit-name">Address:</div>
-                            <div class="tit-contain">Example Street 68, Mahattan, New York, USA.</div>
-                            <div class="tit-name">Phone:</div>
-                            <div class="tit-contain">+00 123 456 789</div>
-                            <div class="tit-name">Email:</div>
-                            <div class="tit-contain">support@business.com</div>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="introduce-title">Company</div>
-                            <ul id="introduce-company"  class="introduce-list">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Affiliate Program</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="introduce-title">My Account</div>
-                            <ul id = "introduce-Account" class="introduce-list">
-                                <li><a href="#">My Order</a></li>
-                                <li><a href="#">My Wishlist</a></li>
-                                <li><a href="#">My Credit Slip</a></li>
-                                <li><a href="#">My Addresses</a></li>
-                                <li><a href="#">My Personal In</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="introduce-title">Support</div>
-                            <ul id = "introduce-support"  class="introduce-list">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Affiliate Program</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div id="contact-box">
-                        <div class="introduce-title">Newsletter</div>
-                        <div class="input-group" id="mail-box">
-                          <input type="text" placeholder="Your Email Address"/>
-                          <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">OK</button>
-                          </span>
-                        </div><!-- /input-group -->
-                        <div class="introduce-title">Let's Socialize</div>
-                        <div class="social-link">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            <a href="#"><i class="fa fa-vk"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div><!-- /#introduce-box -->
-        
-            <!-- #trademark-box -->
-            <div id="trademark-box" class="row">
-                <div class="col-sm-12">
-                    <ul id="trademark-list">
-                        <li id="payment-methods">Accepted Payment Methods</li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-ups.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-qiwi.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-wu.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-cn.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-visa.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-mc.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-ems.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-dhl.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-fe.jpg"  alt="ups"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/data/trademark-wm.jpg"  alt="ups"/></a>
-                        </li>
-                    </ul> 
-                </div>
-            </div> <!-- /#trademark-box -->
-            
-            <!-- #trademark-text-box -->
-            <div id="trademark-text-box" class="row">
-                <div class="col-sm-12">
-                    <ul id="trademark-search-list" class="trademark-list">
-                        <li class="trademark-text-tit">HOT SEARCHED KEYWORDS:</li>
-                        <li><a href="#" >Xiaomio Mi3</a></li>
-                        <li><a href="#" >Digiflipo Pro XT 712 Tablet</a></li>
-                        <li><a href="#" >Mi 3 Phones</a></li>
-                        <li><a href="#" >Iphoneo 6 Plus</a></li>
-                        <li><a href="#" >Women's Messenger Bags</a></li>
-                        <li><a href="#" >Wallets</a></li>
-                        <li><a href="#" >Women's Clutches</a></li>
-                        <li><a href="#" >Backpacks Totes</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-tv-list" class="trademark-list">
-                        <li class="trademark-text-tit">TVS:</li>
-                        <li><a href="#" >Sonyo TV</a></li>
-                        <li><a href="#" >Samsing TV</a></li>
-                        <li><a href="#" >LGG TV</a></li>
-                        <li><a href="#" >Onidai TV</a></li>
-                        <li><a href="#" >Toshibao TV</a></li>
-                        <li><a href="#" >Philipsi TV</a></li>
-                        <li><a href="#" >Micromaxo TV</a></li>
-                        <li><a href="#" >LED TV</a></li>
-                        <li><a href="#" >LCD TV</a></li>
-                        <li><a href="#" >Plasma TV</a></li>
-                        <li><a href="#" >3D TV</a></li>
-                        <li><a href="#" >Smart TV</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-mobile-list" class="trademark-list">
-                        <li class="trademark-text-tit">MOBILES:</li>  
-                        <li><a href="#" >Moto E</a></li>
-                        <li><a href="#" >Samsing Mobile</a></li>
-                        <li><a href="#" >Micromaxi Mobile</a></li>
-                        <li><a href="#" >Nokian Mobile</a></li>
-                        <li><a href="#" >HTCi Mobile</a></li>
-                        <li><a href="#" >Sonyo Mobile</a></li>
-                        <li><a href="#" >Appleo Mobile</a></li>
-                        <li><a href="#" >LGG Mobile</a></li>
-                        <li><a href="#" >Karbonni Mobile</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-laptop-list" class="trademark-list">
-                        <li class="trademark-text-tit">LAPTOPS::</li> 
-                        <li><a href="#" >Appleo Laptop</a></li>
-                        <li><a href="#" >Acer Laptop</a></li>
-                        <li><a href="#" >Samsing Laptop</a></li>
-                        <li><a href="#" >Lenov Laptop</a></li>
-                        <li><a href="#" >Sonyo Laptop</a></li>
-                        <li><a href="#" >Delli Laptop</a></li>
-                        <li><a href="#" >Asuso Laptop</a></li>
-                        <li><a href="#" >Toshibao Laptop</a></li>
-                        <li><a href="#" >LGG Laptop</a></li>
-                        <li><a href="#" >HPo Laptop</a></li>
-                        <li><a href="#" >Notebook</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-watches-list" class="trademark-list">
-                        <li class="trademark-text-tit">WATCHES:</li>  
-                        <li><a href="#" >FCUKo Watches</a></li>
-                        <li><a href="#" >Titan Watches</a></li>
-                        <li><a href="#" >Casioo Watches</a></li>
-                        <li><a href="#" >Fastrack Watches</a></li>
-                        <li><a href="#" >Timexi Watches</a></li>
-                        <li><a href="#" >Fossili Watches</a></li>
-                        <li><a href="#" >Dieselo Watches</a></li>
-                        <li><a href="#" >Toshibao Laptop</a></li>
-                        <li><a href="#" >Luxury Watches</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-shoes-list" class="trademark-list">
-                        <li class="trademark-text-tit">FOOTWEAR:</li>  
-                        <li><a href="#" >Shoes</a></li>
-                        <li><a href="#" >Casual Shoes</a></li>
-                        <li><a href="#" >Sports Shoes</a></li>
-                        <li><a href="#" >Adidasi Shoes</a></li>
-                        <li><a href="#" >Gas Shoes</a></li>
-                        <li><a href="#" >Pumai Shoes</a></li>
-                        <li><a href="#" >Reeboki Shoes</a></li>
-                        <li><a href="#" >Woodlandi Shoes</a></li>
-                        <li><a href="#" >Red tape Shoes</a></li>
-                        <li><a href="#" >Nikeo Shoes</a></li>
-                    </ul>
-                </div>
-            </div><!-- /#trademark-text-box -->
-            <div id="footer-menu-box">
-                <div class="col-sm-12">
-                    <ul class="footer-menu-list">
-                        <li><a href="#" >Company Info - Partnerships</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul class="footer-menu-list">
-                        <li><a href="#" >Online Shopping</a></li>
-                        <li><a href="#" >Promotions</a></li>
-                        <li><a href="#" >My Orders</a></li>
-                        <li><a href="#" >Help</a></li>
-                        <li><a href="#" >Site Map</a></li>
-                        <li><a href="#" >Customer Service</a></li>
-                        <li><a href="#" >Support</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul class="footer-menu-list">
-                        <li><a href="#" >Most Populars</a></li>
-                        <li><a href="#" >Best Sellers</a></li>
-                        <li><a href="#" >New Arrivals</a></li>
-                        <li><a href="#" >Special Products</a></li>
-                        <li><a href="#" >Manufacturers</a></li>
-                        <li><a href="#" >Our Stores</a></li>
-                        <li><a href="#" >Shipping</a></li>
-                        <li><a href="#" >Payments</a></li>
-                        <li><a href="#" >Warantee</a></li>
-                        <li><a href="#" >Refunds</a></li>
-                        <li><a href="#" >Checkout</a></li>
-                        <li><a href="#" >Discount</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul class="footer-menu-list">
-                        <li><a href="#" >Terms & Conditions</a></li>
-                        <li><a href="#" >Policy</a></li>
-                        <li><a href="#" >Shipping</a></li>
-                        <li><a href="#" >Payments</a></li>
-                        <li><a href="#" >Returns</a></li>
-                        <li><a href="#" >Refunds</a></li>
-                        <li><a href="#" >Warrantee</a></li>
-                        <li><a href="#" >FAQ</a></li>
-                        <li><a href="#" >Contact</a></li>
-                    </ul>
-                </div>
-                <p class="text-center">Copyrights &#169; 2015 KuteShop. All Rights Reserved. Designed by KuteThemes.com</p>
-            </div><!-- /#footer-menu-box -->
-        </div> 
-</footer>
-
-<a href="#" class="scroll_top" title="Scroll to Top" style="display: inline;">Scroll</a>
-<!-- Script-->
-<script type="text/javascript" src="assets/lib/jquery/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/lib/select2/js/select2.min.js"></script>
-<script type="text/javascript" src="assets/lib/jquery.bxslider/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="assets/lib/owl.carousel/owl.carousel.min.js"></script>
-<script type="text/javascript" src="assets/lib/jquery.countdown/jquery.countdown.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.actual.min.js"></script>
-<script type="text/javascript" src="assets/js/theme-script.js"></script>
-
-</body>
-</html>
-=======
 <!-- BRAND SHOWCASE  -->
 <?php 
 	if($brandShowCase!=''){
@@ -5163,4 +3405,3 @@
 ?>
 </body>
 </html>
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
