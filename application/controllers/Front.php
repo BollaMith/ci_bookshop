@@ -1,8 +1,6 @@
 <?php
 class Front extends CI_Controller{
 
-<<<<<<< HEAD
-=======
 	public function index($page=''){
 		$this->load->helper('url');
 		$data['pageName']=$page;
@@ -19,7 +17,6 @@ class Front extends CI_Controller{
 	}
 
 
->>>>>>> fabfd12d11acb520763be99fc09bdbe75060e049
     public  function view($page=''){
         $this->load->helper('url');
         
