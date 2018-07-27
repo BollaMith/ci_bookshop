@@ -69,7 +69,8 @@
                     </div>
                     
                 </div>
-            </div><!-- /#introduce-box -->
+            </div>
+            <!-- /#introduce-box -->
         
             <!-- #trademark-box -->
             <div id="trademark-box" class="row">
@@ -108,7 +109,8 @@
                         </li>
                     </ul> 
                 </div>
-            </div> <!-- /#trademark-box -->
+            </div> 
+            <!-- /#trademark-box -->
             
             <!-- #trademark-text-box -->
             <div id="trademark-text-box" class="row">
@@ -201,7 +203,8 @@
                         <li><a href="#" >Nikeo Shoes</a></li>
                     </ul>
                 </div>
-            </div><!-- /#trademark-text-box -->
+            </div>
+            <!-- /#trademark-text-box -->
             <div id="footer-menu-box">
                 <div class="col-sm-12">
                     <ul class="footer-menu-list">
@@ -249,6 +252,7 @@
                     </ul>
                 </div>
                 <p class="text-center">Copyrights &#169; 2015 KuteShop. All Rights Reserved. Designed by KuteThemes.com</p>
-            </div><!-- /#footer-menu-box -->
+            </div>
+            <!-- /#footer-menu-box -->
         </div> 
 </footer>
