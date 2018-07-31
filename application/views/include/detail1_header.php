@@ -503,7 +503,8 @@
                                     <li><a href="category.html">Jewelry</a></li>
                                     <li><a href="category.html">Blog</a></li>
                                 </ul>
-                            </div><!--/.nav-collapse -->
+                            </div>
+                        <!--/.nav-collapse -->
                         </div>
                     </nav>
                 </div>

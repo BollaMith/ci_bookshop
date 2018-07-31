@@ -13,7 +13,7 @@
 <!-- HEADER -->
 <div id="header" class="header">
 <div class="top-header">
-<?php 
+    <?php 
         $this->load->view('include/detail_top_header');
     ?> 
     <!--/.top-header -->
