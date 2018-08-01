@@ -54,7 +54,7 @@
 										<!--  -->
 										<li>
 											<div class="left-block">
-												<a href="#">
+												<a href="<?php echo site_url();?>detail">
 												<img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p<?php echo $i; ?>.jpg" /></a>
 												<div class="quick-view">
 														<a title="Add to my wishlist" class="heart" href="#"></a>
@@ -66,7 +66,7 @@
 												</div>
 											</div>
 											<div class="right-block">
-												<h5 class="product-name"><a href="#">Yellow Dress</a></h5>
+												<h5 class="product-name"><a href="<?php echo site_url();?>detail">Yellow Dress</a></h5>
 												<div class="content_price">
 													<span class="price product-price">$38,95</span>
 													<span class="price old-price">$52,00</span>

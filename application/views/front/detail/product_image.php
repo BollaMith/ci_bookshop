@@ -33,7 +33,7 @@
                          
                          
                             <div class="pb-right-column col-xs-12 col-sm-6">
-                                <h1 class="product-name">Maecenas consequat mauris</h1>
+                                <h1 class="product-name">Maecenas consequat mauris <?php echo $proid; ?></h1>
                                 <div class="product-comments">
                                     <div class="product-star">
                                         <i class="fa fa-star"></i>

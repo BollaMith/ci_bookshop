@@ -1,13 +1,16 @@
 <?php
-class detail3 extends CI_Controller{
+class Detail extends CI_Controller{
 
-  public function index($page=''){
+  public function index($proid=''){
     $this->load->helper('url');
-    $data['pageName']=$page;
+    $data['proid']=$proid;
     $data['Info']="Information on Home Page";
     $data['hotcategory']='hot_category';
     $data['brandShowCase']='brand_show_case';
-    $this->load->view('front/detail3',$data);
+    $this->load->view('front/detail',$data);
   }
+
+
+
 }
 

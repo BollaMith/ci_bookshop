@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php 
-        $this->load->view('include/detail1_head_script');
+        $this->load->view('include/detail_head_script');
     ?> 
     
-    <title>Kute shop - themelock.com</title>
+    <title>Kute shop <?php echo $proid; ?></title>
 </head>
 <body class="product-page right-sidebar">
 
@@ -19,7 +19,7 @@
     <!--/.top-header -->
     <!-- MAIN HEADER -->
     <?php 
-        $this->load->view('include/detail_main_header');
+        $this->load->view('include/main_header');
     ?> 
     <!-- END MANIN HEADER -->
     <?php 
@@ -37,9 +37,9 @@
         <!-- row -->
         <div class="row">
 
-            <!-- Left colunm -->
-            <?php $this->load->view('include/detail3_Left-colunm'); ?>
-            <!-- ./left colunm -->
+            <!-- Detail Right Sidebar -->
+            <?php $this->load->view('front/detail/detail_right_sidebar'); ?>
+            <!-- ./Detail Right Sidebar -->
 
             <!-- Center colunm-->
 
