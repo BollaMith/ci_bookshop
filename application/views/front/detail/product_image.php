@@ -6,7 +6,7 @@
                                  <!-- product-imge-->
                                 <div class="product-image">
                                     <div class="product-full">
-                                        <img id="product-zoom" src='<?php echo base_url();?>uploads/products/p2.jpg' data-zoom-image="<?php echo base_url();?>uploads/products/p2.jpg"/>
+                                        <img id="product-zoom" src='<?php echo base_url();?>uploads/products/<?php echo $pro_detail[0]['pro_feature']; ?>' data-zoom-image="<?php echo base_url();?>uploads/products/<?php echo $pro_detail[0]['pro_feature']; ?>"/>
                                     </div>
                                     <div class="product-img-thumb" id="gallery_01">
                                         <ul class="owl-carousel" data-items="3" data-nav="true" data-dots="false" data-margin="20" data-loop="true">
@@ -33,7 +33,7 @@
                          
                          
                             <div class="pb-right-column col-xs-12 col-sm-6">
-                                <h1 class="product-name">Maecenas consequat mauris <?php echo $proid; ?></h1>
+                                <h1 class="product-name"><?php echo $pro_detail[0]['pro_name']; ?></h1>
                                 <div class="product-comments">
                                     <div class="product-star">
                                         <i class="fa fa-star"></i>
@@ -47,10 +47,16 @@
                                         <a href="#"><i class="fa fa-pencil"></i> write a review</a>
                                     </div>
                                 </div>
+                                <?php
+                                 $sellPrice=$pro_detail[0]['pro_price']-($pro_detail[0]['pro_price']*$pro_detail[0]['pro_discount'])/100;
+                                $price=round($sellPrice,2);
+
+
+                                 ?>
                                 <div class="product-price-group">
-                                    <span class="price">$38.95</span>
-                                    <span class="old-price">$52.00</span>
-                                    <span class="discount">-30%</span>
+                                    <span class="price">$<?php echo $price; ?></span>
+                                    <span class="old-price">$<?php echo $pro_detail[0]['pro_price']; ?></span>
+                                    <span class="discount">-<?php echo $pro_detail[0]['pro_discount']; ?>%</span>
                                 </div>
                                 <div class="info-orther">
                                     <p>Item Code: #453217907</p>
@@ -58,7 +64,9 @@
                                     <p>Condition: New</p>
                                 </div>
                                 <div class="product-desc">
-                                    Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium.Fusce egestas elit eget lorem. 
+                                    <?php
+                                        echo $pro_detail[0]['pro_description'];
+                                     ?>
                                 </div>
                                 <div class="form-option">
                                     <p class="form-option-title">Available Options:</p>

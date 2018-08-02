@@ -7,7 +7,7 @@
         $this->load->view('include/detail_head_script');
     ?> 
     
-    <title>Kute shop <?php echo $proid; ?></title>
+    <title><?php echo $pro_detail[0]['pro_name']; ?></title>
 </head>
 <body class="product-page right-sidebar">
 
@@ -30,7 +30,7 @@
 <div class="columns-container">
     <div class="container" id="columns">
         <!-- breadcrumb -->
-        <?php $this->load->view('include/detail3_breadcrumb'); ?> 
+        <?php $this->load->view('include/detail_breadcrumb'); ?> 
         <!-- ./breadcrumb -->
         
         

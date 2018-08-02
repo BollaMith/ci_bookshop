@@ -48,14 +48,13 @@
                                 <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
 																	
 									<?php 
-									for($i=1;$i<=5;$i++){
-										
+									foreach($best_seller as $rows) {			
 										?>
-										<!--  -->
+								
 										<li>
 											<div class="left-block">
-												<a href="<?php echo site_url();?>detail">
-												<img class="img-responsive" alt="product" src="<?php echo base_url(); ?>uploads/products/p<?php echo $i; ?>.jpg" /></a>
+												<a href="<?php echo site_url();?>detail/<?php echo $rows['pro_id']; ?>">
+												<img class="img-responsive" alt="<?php echo $rows['pro_feature']; ?>" src="<?php echo base_url(); ?>uploads/products/<?php echo $rows['pro_feature']; ?>" /></a>
 												<div class="quick-view">
 														<a title="Add to my wishlist" class="heart" href="#"></a>
 														<a title="Add to compare" class="compare" href="#"></a>
@@ -66,10 +65,18 @@
 												</div>
 											</div>
 											<div class="right-block">
-												<h5 class="product-name"><a href="<?php echo site_url();?>detail">Yellow Dress</a></h5>
+												<h5 class="product-name">
+													<a href="<?php echo site_url();?>detail"><?php echo $rows['pro_name'];  ?>
+													</a></h5>
+													<?php
+                                 $sellPrice=$rows['pro_price']-($rows['pro_price']*$rows['pro_discount'])/100;
+                                $price=round($sellPrice,2);
+                                 ?>
+
+
 												<div class="content_price">
-													<span class="price product-price">$38,95</span>
-													<span class="price old-price">$52,00</span>
+													<span class="price product-price">$<?php echo $price;  ?></span>
+													<span class="price old-price">$<?php echo $rows['pro_price'];  ?></span>
 												</div>
 												<div class="product-star">
 													<i class="fa fa-star"></i>
@@ -82,7 +89,7 @@
 										</li>									
 
 										<?php
-										
+										//$i++;
 									}
 									?>
                                 </ul>
