@@ -14,10 +14,14 @@ class Detail extends CI_Controller{
 		}
 
   public function index($proid=''){
-    $this->load->helper('url');
+    	$data=array();
 
 		$sql_detail="SELECT * FROM products WHERE pro_id=".$proid;
 		$data['pro_detail']=$this->mProduct->get_by_sql($sql_detail);
+
+		$sql_relate_pro="SELECT * FROM products WHERE pro_id<>".$proid;
+		$data['pro_related']=$this->mProduct->get_by_sql($sql_relate_pro);
+
 
 	    $data['proid']=$proid;
 	    $data['Info']="Information on Home Page";

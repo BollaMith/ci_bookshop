@@ -10,8 +10,7 @@
                                     </div>
                                     <div class="product-img-thumb" id="gallery_01">
                                         <ul class="owl-carousel" data-items="3" data-nav="true" data-dots="false" data-margin="20" data-loop="true">
-                                            											
-											<?php
+                                						<?php
 											for($i=1;$i<6;$i++){
 												?>
 												<li>
@@ -50,8 +49,6 @@
                                 <?php
                                  $sellPrice=$pro_detail[0]['pro_price']-($pro_detail[0]['pro_price']*$pro_detail[0]['pro_discount'])/100;
                                 $price=round($sellPrice,2);
-
-
                                  ?>
                                 <div class="product-price-group">
                                     <span class="price">$<?php echo $price; ?></span>
@@ -59,9 +56,9 @@
                                     <span class="discount">-<?php echo $pro_detail[0]['pro_discount']; ?>%</span>
                                 </div>
                                 <div class="info-orther">
-                                    <p>Item Code: #453217907</p>
+                                    <p>Item Code: #<?php echo $pro_detail[0]['sku']; ?></p>
                                     <p>Availability: <span class="in-stock">In stock</span></p>
-                                    <p>Condition: New</p>
+                                    <p>Condition: <span style="color:white; background-color:green; padding:3px 10px 3px 10px; border-radius:10px;"><?php echo $pro_detail[0]['condition']; ?></span></p>
                                 </div>
                                 <div class="product-desc">
                                     <?php
@@ -73,14 +70,19 @@
                                     <div class="attributes">
                                         <div class="attribute-label">Color:</div>
                                         <div class="attribute-list">
-                                            <ul class="list-color">
-                                                <li style="background:#0c3b90;"><a href="#">red</a></li>
-                                                <li style="background:#036c5d;" class="active"><a href="#">red</a></li>
-                                                <li style="background:#5f2363;"><a href="#">red</a></li>
-                                                <li style="background:#ffc000;"><a href="#">red</a></li>
-                                                <li style="background:#36a93c;"><a href="#">red</a></li>
-                                                <li style="background:#ff0000;"><a href="#">red</a></li>
-                                            </ul>
+							<select>
+                                                <?php 
+											$pro_color = '';
+											$pro_color = explode(",", $pro_detail[0]['color']);
+											foreach($pro_color as $val) {
+												$val = trim($val);
+												?>
+												 <option value="<?php echo $val; ?>"><?php echo $val; ?></option>
+												<?php
+											}											
+											?>
+                                            </select>		
+                                           
                                         </div>
                                     </div>
                                     <div class="attributes">
@@ -100,12 +102,19 @@
                                         </div>
                                     </div>
                                     <div class="attributes">
-                                        <div class="attribute-label">Size:</div>
+                                        <div class="attribute-label">Size: </div>								
                                         <div class="attribute-list">
-                                            <select>
-                                                <option value="1">X</option>
-                                                <option value="2">XL</option>
-                                                <option value="3">XXL</option>
+                                            <select>	
+											<?php 
+											$pro_size = '';
+											$size = explode(",", $pro_detail[0]['pro_size']);
+											foreach($size as $val) {
+												$val = trim($val);
+												?>
+												 <option value="<?php echo $val; ?>"><?php echo $val; ?></option>
+												<?php
+											}											
+											?>
                                             </select>
                                             <a id="size_chart" class="fancybox" href="<?php echo base_url(); ?>uploads/products/p5.jpg">Size Chart</a>
                                         </div>
@@ -155,29 +164,13 @@
                             </ul>
                             <div class="tab-container">
                                 <div id="product-detail" class="tab-panel active">
-                                    <p>Morbi mollis tellus ac sapien. Nunc nec neque. Praesent nec nisl a purus blandit viverra. Nunc nec neque. Pellentesque auctor neque nec urna.</p>
-
-                                    <p>Curabitur suscipit suscipit tellus. Cras id dui. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Maecenas vestibulum mollis diam.</p>
-
-                                    <p>Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Sed lectus. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam at tortor in tellus interdum sagittis. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est.</p>
+                                   <?php echo $pro_detail[0]['pro_detail']; ?>
                                 </div>
                                 <div id="information" class="tab-panel">
-                                    <table class="table table-bordered">
-                                        <tr>
-                                            <td width="200">Compositions</td>
-                                            <td>Cotton</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Styles</td>
-                                            <td>Girly</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Properties</td>
-                                            <td>Colorful Dress</td>
-                                        </tr>
-                                    </table>
+                                     <?php echo $pro_detail[0]['information']; ?>
                                 </div>
                                 <div id="reviews" class="tab-panel">
+						<!--	
                                     <div class="product-comments-block-tab">
                                         <div class="comment row">
                                             <div class="col-sm-3 author">
@@ -225,23 +218,14 @@
                                             <a class="btn-comment" href="#">Write your review !</a>
                                         </p>
                                     </div>
-                                    
+                                  -->   
                                 </div>
                                 <div id="extra-tabs" class="tab-panel">
-                                    <p>Phasellus accumsan cursus velit. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Sed lectus. Sed a libero. Vestibulum eu odio.</p>
-
-                                    <p>Maecenas vestibulum mollis diam. In consectetuer turpis ut velit. Curabitur at lacus ac velit ornare lobortis. Praesent ac sem eget est egestas volutpat. Nam eget dui.</p>
-
-                                    <p>Maecenas nec odio et ante tincidunt tempus. Vestibulum suscipit nulla quis orci. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Aenean ut eros et nisl sagittis vestibulum. Aliquam eu nunc.</p> 
+                                     <?php echo $pro_detail[0]['extra_info']; ?>
                                 </div>
                                 <div id="guarantees" class="tab-panel">
-                                    <p>Phasellus accumsan cursus velit. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Sed lectus. Sed a libero. Vestibulum eu odio.</p>
-
-                                    <p>Maecenas vestibulum mollis diam. In consectetuer turpis ut velit. Curabitur at lacus ac velit ornare lobortis. Praesent ac sem eget est egestas volutpat. Nam eget dui.</p>
-
-                                    <p>Maecenas nec odio et ante tincidunt tempus. Vestibulum suscipit nulla quis orci. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Aenean ut eros et nisl sagittis vestibulum. Aliquam eu nunc.</p> 
-                                    <p>Maecenas vestibulum mollis diam. In consectetuer turpis ut velit. Curabitur at lacus ac velit ornare lobortis. Praesent ac sem eget est egestas volutpat. Nam eget dui.</p>
-                                </div>
+                                     <?php echo $pro_detail[0]['guarantees']; ?>
+					</div>
                             </div>
                         </div>
 
