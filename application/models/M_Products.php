@@ -10,9 +10,13 @@ class M_Products extends CI_Model{
 		if(!empty($query))
 		{
 			$results = array();
-			if ( $query->num_rows() > 0 )
+			if ( $query->num_rows() > 0 ){
 				$results = $query->result_array();
-			return $results;	
+				return $results;
+			}else{
+				return false;
+			}
+					
 		}
 	}
 

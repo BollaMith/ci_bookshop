@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <?php 
-        $this->load->view('include/head_script_home');
-       
+        $this->load->view('include/head_script_home');       
    ?> 
     <title>Kute shop - themelock.com</title>
 </head>
