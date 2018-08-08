@@ -11,11 +11,11 @@
                                     <div class="product-img-thumb" id="gallery_01">
                                         <ul class="owl-carousel" data-items="3" data-nav="true" data-dots="false" data-margin="20" data-loop="true">
                                 						<?php
-											for($i=1;$i<6;$i++){
+											foreach($pro_detail_gallery as $pdg){
 												?>
 												<li>
-                                                <a href="#" data-image="<?php echo base_url();?>uploads/products/p<?php echo $i; ?>.jpg" data-zoom-image="<?php echo base_url();?>uploads/products/p<?php echo $i; ?>.jpg">
-                                                    <img id="product-zoom"  src="<?php echo base_url();?>uploads/products/p<?php echo $i; ?>.jpg" /> 
+                                                <a href="#" data-image="<?php echo base_url();?>uploads/products/<?php echo $pdg['pro_image']; ?>" data-zoom-image="<?php echo base_url();?>uploads/products/<?php echo $pdg['pro_image']; ?>">
+                                                    <img id="product-zoom"  src="<?php echo base_url();?>uploads/products/<?php echo $pdg['pro_image']; ?>" /> 
                                                 </a>
 											</li>
 												<?php

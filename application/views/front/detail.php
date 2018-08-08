@@ -23,7 +23,8 @@
     ?> 
     <!-- END MANIN HEADER -->
     <?php 
-        $this->load->view('include/detail_navmenu_header');
+		// $this->load->view('include/detail_navmenu_header');
+		$this->load->view('include/nav_top_menu');
     ?>     
 </div>
 
