@@ -112,6 +112,7 @@
                     //alert("Hello");
                     $('#detail_cart').html(data);
                     $('#count_cart').load("<?php echo site_url('front/load_cart_count');?>");
+                
                 }
             });
         });
@@ -120,6 +121,7 @@
         $('#detail_cart').load("<?php echo site_url('front/load_cart');?>");
 
         $('#count_cart').load("<?php echo site_url('front/load_cart_count');?>");
+       
 
         
  
@@ -133,6 +135,7 @@
                 success :function(data){
                     $('#detail_cart').html(data);
                     $('#count_cart').load("<?php echo site_url('front/load_cart_count');?>");
+
                 }
             });
         });

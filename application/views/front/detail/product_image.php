@@ -72,7 +72,7 @@
                                     <div class="attributes">
                                         <div class="attribute-label">Color:</div>
                                         <div class="attribute-list">
-							<select>
+							<select name="color" id="color" data-productcolor="<?php echo  $pro_detail[0]['pro_name']; ?>">
                                                 <?php 
 											$pro_color = '';
 											$pro_color = explode(",", $pro_detail[0]['color']);
@@ -90,17 +90,18 @@
                                     <div class="attributes">
                                         <div class="attribute-label">Qty:</div>
                                         <div class="attribute-list" style="border-radius: 0px; width: 395px;">
-                                            <input id="option-product-qty" style="border-radius: 0px; width: 395px;" type="number" min="1" step="1" name="quantity" id="<?php echo $pro_detail[0]['pro_id'];?>" value="1" class="quantity form-control">
 
+                                            <input  style="border-radius: 0px; width: 395px;" type="number" min="1" step="1" name="quantity" 
+                                            id="<?php echo $pro_detail[0]['pro_id'];?>" 
+                                            value="1" class="quantity form-control">
 
-
-
+                                            
                                             
                                     </div>
                                     <div class="attributes">
                                         <div class="attribute-label">Size: </div>								
                                         <div class="attribute-list">
-                                            <select>	
+                                            <select name="size" id="size<?php echo $pro_detail[0]['pro_id'];?>">	
 											<?php 
 											$pro_size = '';
 											$size = explode(",", $pro_detail[0]['pro_size']);
@@ -121,7 +122,10 @@
                                     <div class="button-group">
                                         <!-- <a class="btn-add-cart" href="#">Add to cart</a> -->
                                         
-                                            <input type="hidden" name="quantity" id="<?php echo $pro_detail[0]['pro_id']; ?>" value="1" class="quantity form-control">
+                                           <!--  <input type="hidden" name="quantity" id="<?php echo $pro_detail[0]['pro_id']; ?>" value="1" class="quantity form-control"> -->
+
+
+
 
 
                                             <button class="add_cart btn-add-cart btn-block" 

@@ -1,6 +1,6 @@
 <div class="container main-header">
         <div class="row">
-            <div class="col-xs-12 col-sm-3 logo">
+          <div class="col-xs-12 col-sm-3 logo">
                 <a href="<?php echo site_url(); ?>"><img alt="Kute shop - themelock.com" src="<?php echo base_url(); ?>public/assets/images/logo.png" /></a>
             </div>
             <div class="col-xs-7 col-sm-7 header-search-box">
@@ -20,7 +20,8 @@
             </div>
 
 
-               <div id="cart-block" class="col-xs-5 col-sm-2 shopping-cart-box">     
+
+            <div id="cart-block" class="col-xs-5 col-sm-2 shopping-cart-box">     
                 
                 <a class="cart-link" href="order.html" id="count_cart">
                     <span class="title">Shopping cart</span>
@@ -31,8 +32,8 @@
                 </div>
 
             </div>
-            
+
            
+
         </div>
-        
     </div>

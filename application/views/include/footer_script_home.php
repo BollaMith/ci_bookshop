@@ -9,7 +9,7 @@
 
 <!-- For Cart -->
 <!-- jquery-3.2.1.js -->
-<script type="text/javascript" src="<?php echo base_url();?>public/assets/js/jquery-3.2.1.js"></script>
+
 <script type="text/javascript">
 	
 	 $(document).ready(function(){

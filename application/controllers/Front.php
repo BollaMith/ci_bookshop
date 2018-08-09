@@ -90,19 +90,92 @@ class Front extends CI_Controller{
 	// ============= working on cart ==================
 
 	public function add_to_cart(){ 
+		$size=$this->input->post('size')?$this->input->post('size'):'M';
+		$color=$this->input->post('color')?$this->input->post('color'):'Blue';
+		$sku=$this->input->post('sku')?$this->input->post('sku'):'None';
+		$condition=$this->input->post('condition')?$this->input->post('condition'):'New';
+
         $data = array(
             'id' => $this->input->post('product_id'), 
             'name' => $this->input->post('product_name'), 
             'price' => $this->input->post('product_price'), 
             'qty' => $this->input->post('quantity'),
-            'img'=>$this->input->post('product_feature'), 
+            'img'=>$this->input->post('product_feature'),
+            'options' => array('size' =>$size,
+                                'color' => $color,
+                                'sku' => $sku,
+                                'Condition' => $condition
+                                ),
         );
         $this->cart->insert($data);
         echo $this->show_cart(); 
          // echo $this->load_cart_count();
     }
 
-    public function show_cart(){ 
+    public function show_cart()
+    {
+    	$output = '';
+        $no = 0;
+    	$output.='
+    	                
+                ';
+               $output.=' 
+                <div class="cart-block">
+                    <div class="cart-block-content">
+                        <h5 class="cart-title">'. count($this->cart->contents()).' Items in my cart</h5>
+                        <div class="cart-block-list">
+                            <ul>
+                                ';
+                               
+                                 foreach ($this->cart->contents() as $items) {           
+                                	$no++;                            
+                                $output.='
+                                <li class="product-info">
+                                    <h4 class="p-name" style="padding:10px 5px 10px 5px;">'.$items['name'].'</h4>
+                                    <div class="p-left">
+                                        <!-- <a href="#" class="remove_link"></a> -->
+                                        <button type="button" id="'. $items['rowid'] .'" class="romove_cart btn btn-danger btn-sm remove_link" style="color:white; border-radius: 0px;">Cancel</button>
+
+                                        <a href="#">
+                                        <img class="img-responsive" src="'. base_url() .'uploads/products/'. $items['img'] .'" alt="'. $items['img'] .'">
+                                        </a>
+                                    </div>
+                                    <div class="p-right">
+                                        <p>Price :<i class="p-rice">'. number_format($items['price'],2).'$</i></p>
+                                        <p>Qty:'. $items['qty'].'</p>
+                                        <p>Amount: '. number_format($items['subtotal'],2).'$</p>
+                                        
+                                        
+                                        
+                                    </div>
+                                </li>
+                                ';
+                                   }
+
+                              $output.='  
+                            </ul>
+                        </div>
+                         <div class="toal-cart">
+                                <span>Total</span>
+                                <span class="toal-price pull-right">'. number_format($this->cart->total(),2) .'$</span>
+                            </div>
+                        <div class="cart-buttons">
+                            <a href="'. site_url().'cart" class="btn-check-out">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            
+    	';
+
+    	return $output;
+    	 // echo $this->load_cart_count();
+    	
+    }
+
+
+
+
+    public function show_cart1(){ 
         $output = '';
         $no = 0;
         $output.='
@@ -146,12 +219,18 @@ class Front extends CI_Controller{
 	            <span class="toal-price pull-right">'.number_format($this->cart->total(),2).'$</span>
 	        </div>
 
-         </ul>                
+         </ul> 
+         </div>
+                        
+        <div class="cart-buttons">
+            <a href="'.site_url().'order.html" class="btn-check-out">Checkout</a>
+        </div>               
             
         ';
         return $output;
 
         echo $this->load_cart_count();
+        // echo $this->load_cart_count_menu();
     }
 
 
@@ -183,6 +262,10 @@ class Front extends CI_Controller{
      	echo $output;
 
        // echo count($this->cart->contents());
+    }
+
+    public function load_cart_count_menu(){      	
+     	echo count($this->cart->contents());
     }
 
 
