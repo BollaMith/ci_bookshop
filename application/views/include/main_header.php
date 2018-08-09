@@ -18,54 +18,61 @@
                       <button type="submit" class="pull-right btn-search"></button>
                 </form>
             </div>
-            <div id="cart-block" class="col-xs-5 col-sm-2 shopping-cart-box">
-                <a class="cart-link" href="order.html">
+            <div id="cart-block " class="col-xs-5 col-sm-2 shopping-cart-box">
+                
+                <a class="cart-link" href="order.html" id="count_cart">
                     <span class="title">Shopping cart</span>
-                    <span class="total">2 items - 122.38 €</span>
-                    <span class="notify notify-left">2</span>
+                    <span class="total"><?php echo count($this->cart->contents())?> items - <?php echo number_format($this->cart->total(),2); ?> $</span>
+                    <span class="notify notify-left"><?php echo count($this->cart->contents()); ?></span>
                 </a>
-                <div class="cart-block">
+                <div class="cart-block" id="detail_cart">
                     <div class="cart-block-content">
                         <h5 class="cart-title">2 Items in my cart</h5>
-                        <div class="cart-block-list">
+                        <div class="cart-block-list" >
                             <ul>
+                                <?php 
+                            foreach ($this->cart->contents() as $items) {
+                                //$no++;
+                                $output .='
+
                                 <li class="product-info">
-                                    <div class="p-left">
-                                        <a href="#" class="remove_link"></a>
-                                        <a href="#">
-                                        <img class="img-responsive" src="<?php echo base_url(); ?>assets/data/product-100x122.jpg" alt="p10">
-                                        </a>
-                                    </div>
-                                    <div class="p-right">
-                                        <p class="p-name">Donec Ac Tempus</p>
-                                        <p class="p-rice">61,19 €</p>
-                                        <p>Qty: 1</p>
-                                    </div>
-                                </li>
-                                <li class="product-info">
-                                    <div class="p-left">
-                                        <a href="#" class="remove_link"></a>
-                                        <a href="#">
-                                        <img class="img-responsive" src="<?php echo base_url(); ?>uploads/products/product-s5-100x122.jpg" alt="p10">
-                                        </a>
-                                    </div>
-                                    <div class="p-right">
-                                        <p class="p-name">Donec Ac Tempus</p>
-                                        <p class="p-rice">61,19 €</p>
-                                        <p>Qty: 1</p>
-                                    </div>
-                                </li>
+                                    <h4 class="p-name" style="padding:10px 5px 10px 5px;">​ '.$items['name'].'</h4>
+                                        <div class="p-left"> 
+                                            <a href="#">
+                                            <img class="img-responsive" style="height:94px;" src="'. base_url() .'uploads/products/p2.jpg" alt="p2">
+                                            </a>
+                                        </div>
+                                        <div class="p-right">                       
+                                            <p>Price:<i class="p-rice">'.number_format($items['price'],2).'$</i></p>
+                                            <p>Qty: '.$items['qty'].'</p>
+                                            <p>Amount: '.number_format($items['subtotal'],2).'$</p>
+
+                                            
+
+                                            <button type="button" id="'.$items['rowid'].'" class="romove_cart btn btn-danger btn-sm">X</button>
+                                            
+                                        </div>
+                                    </li>                                                        
+                                ';
+                            }
+
+                            ?>
+                            <div class="toal-cart">
+                                <span>Total</span>
+                                <span class="toal-price pull-right">'<?php echo number_format($this->cart->total(),2); ?>$</span>
+                            </div>
+
                             </ul>
+
                         </div>
-                        <div class="toal-cart">
-                            <span>Total</span>
-                            <span class="toal-price pull-right">122.38 €</span>
-                        </div>
+                        
                         <div class="cart-buttons">
                             <a href="order.html" class="btn-check-out">Checkout</a>
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
         

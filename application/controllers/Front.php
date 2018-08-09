@@ -78,7 +78,113 @@ class Front extends CI_Controller{
 		$this->load->view('front/category/category',$data);
 	}
 
+
+
+
+
+
+
+
+
+
+	// ============= working on cart ==================
+
+	public function add_to_cart(){ 
+        $data = array(
+            'id' => $this->input->post('product_id'), 
+            'name' => $this->input->post('product_name'), 
+            'price' => $this->input->post('product_price'), 
+            'qty' => $this->input->post('quantity'),
+            'img'=>$this->input->post('product_feature'), 
+        );
+        $this->cart->insert($data);
+        echo $this->show_cart(); 
+         // echo $this->load_cart_count();
+    }
+
+    public function show_cart(){ 
+        $output = '';
+        $no = 0;
+        $output.='
+        		
+
+        	<div class="cart-block-content">
+	            <h5 class="cart-title">'. count($this->cart->contents()) .' Items in my cart</h5>
+	            <div class="cart-block-list" >
+	        <ul>
+
+        ';
+        foreach ($this->cart->contents() as $items) {
+            $no++;
+            $output .='
+                            
+                <li class="product-info">
+                <h4 class="p-name" style="padding:10px 5px 10px 5px;">​ '.$items['name'].'</h4>
+	                <div class="p-left"> 
+	                    <a href="#">
+	                    <img class="img-responsive" style="height:94px;" src="'. base_url() .'uploads/products/'.$items['img'].'" alt="p2">
+	                    </a>
+	                </div>
+	                <div class="p-right">	                    
+	                    <p>Price:<i class="p-rice">'.number_format($items['price'],2).'$</i></p>
+	                    <p>Qty: '.$items['qty'].'</p>
+	                    <p>Amount: '.number_format($items['subtotal'],2).'$</p>
+
+	                    
+
+	                    <button type="button" id="'.$items['rowid'].'" class="romove_cart btn btn-danger btn-sm">X</button>
+	                    
+	                </div>
+	            </li>
+
+	            
+            ';
+        }
+        $output .= '
+	         <div class="toal-cart">
+	            <span>Total</span>
+	            <span class="toal-price pull-right">'.number_format($this->cart->total(),2).'$</span>
+	        </div>
+
+         </ul>                
+            
+        ';
+        return $output;
+
+        echo $this->load_cart_count();
+    }
+
+
+    public function load_cart(){ 
+        echo $this->show_cart();
+        // echo $this->load_cart_count();
+    }
+
 		
+	public function delete_cart(){ 
+        $data = array(
+            'rowid' => $this->input->post('row_id'), 
+            'qty' => 0, 
+        );
+        $this->cart->update($data);
+        
+        echo $this->show_cart();
+        // echo $this->load_cart_count();
+    }
+
+     public function load_cart_count(){ 
+
+     	$output = '';
+     	$output .= '
+	        <span class="title">Shopping cart</span>
+                    <span class="total">'.count($this->cart->contents()).' items - '. number_format($this->cart->total(),2) .'$</span>
+           <span class="notify notify-left">'.count($this->cart->contents()).'</span>
+        ';
+     	echo $output;
+
+       // echo count($this->cart->contents());
+    }
+
 
 
 

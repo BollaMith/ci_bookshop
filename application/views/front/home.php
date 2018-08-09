@@ -248,5 +248,10 @@
 <?php 
 	$this->load->view('include/footer_script_home');
 ?>
+
+
+
+
+
 </body>
 </html>

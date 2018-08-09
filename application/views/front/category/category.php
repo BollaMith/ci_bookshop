@@ -19,120 +19,11 @@
 <body class="category-page right-sidebar">
 <!-- HEADER -->
 <div id="header" class="header">
-   <!--  <div class="top-header">
-        <div class="container">
-            <div class="nav-top-links">
-                <a class="first-item" href="#"><img alt="phone" src="assets/images/phone.png" />00-62-658-658</a>
-                <a href="#"><img alt="email" src="assets/images/email.png" />Contact us today!</a>
-            </div>
-            <div class="currency ">
-                <div class="dropdown">
-                      <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">USD</a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Dollar</a></li>
-                        <li><a href="#">Euro</a></li>
-                      </ul>
-                </div>
-            </div>
-            <div class="language ">
-                <div class="dropdown">
-                      <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                      <img alt="email" src="assets/images/fr.jpg" />French
-                      </a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#"><img alt="email" src="assets/images/en.jpg" />English</a></li>
-                        <li><a href="#"><img alt="email" src="assets/images/fr.jpg" />French</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="support-link">
-                <a href="#">Services</a>
-                <a href="#">Support</a>
-            </div>
-            <div id="user-info-top" class="user-info pull-right">
-                <div class="dropdown">
-                    <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>My Account</span></a>
-                    <ul class="dropdown-menu mega_dropdown" role="menu">
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="#">Compare</a></li>
-                        <li><a href="#">Wishlists</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> -->
+  
      <?php $this->load->view('include/top_header'); ?>
     <!--/.top-header -->
     <!-- MAIN HEADER -->
-    <!-- <div class="container main-header">
-        <div class="row">
-            <div class="col-xs-12 col-sm-3 logo">
-                <a href="index.html"><img alt="Kute shop - themelock.com" src="assets/images/logo.png" /></a>
-            </div>
-            <div class="col-xs-7 col-sm-7 header-search-box">
-                <form class="form-inline">
-                      <div class="form-group form-category">
-                        <select class="select-category">
-                            <option value="2">All Categories</option>
-                            <option value="1">Men</option>
-                            <option value="2">Women</option>
-                        </select>
-                      </div>
-                      <div class="form-group input-serach">
-                        <input type="text"  placeholder="Keyword here...">
-                      </div>
-                      <button type="submit" class="pull-right btn-search"></button>
-                </form>
-            </div>
-            <div id="cart-block" class="col-xs-5 col-sm-2 shopping-cart-box">
-                <a class="cart-link" href="order.html">
-                    <span class="title">Shopping cart</span>
-                    <span class="total">2 items - 122.38 €</span>
-                    <span class="notify notify-left">2</span>
-                </a>
-                <div class="cart-block">
-                    <div class="cart-block-content">
-                        <h5 class="cart-title">2 Items in my cart</h5>
-                        <div class="cart-block-list">
-                            <ul>
-                                <li class="product-info">
-                                    <div class="p-left">
-                                        <a href="#" class="remove_link"></a>
-                                        <a href="#">
-                                        <img class="img-responsive" src="assets/data/product-100x122.jpg" alt="p10">
-                                        </a>
-                                    </div>
-                                    <div class="p-right">
-                                        <p class="p-name">Donec Ac Tempus</p>
-                                        <p class="p-rice">61,19 €</p>
-                                    </div>
-                                </li>
-                                <li class="product-info">
-                                    <div class="p-left">
-                                        <a href="#" class="remove_link"></a>
-                                        <a href="#">
-                                        <img class="img-responsive" src="assets/data/product-s5-100x122.jpg" alt="p10">
-                                        </a>
-                                    </div>
-                                    <div class="p-right">
-                                        <p class="p-name">Donec Ac Tempus</p>
-                                        <p class="p-rice">61,19 €</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="toal-cart">
-                            <span>Total</span>
-                            <span class="toal-price pull-right">122.38 €</span>
-                        </div>
-                        <div class="cart-buttons">
-                            <a href="order.html" class="btn-check-out">Checkout</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    
 
     <?php $this->load->view('include/main_header'); ?>
 
@@ -335,6 +226,7 @@
                     <ul class="row product-list style2 grid">
 
                         <?php
+                            if($ProCatList !=false):
                             //  for($i=1;$i<10;$i++){
 								foreach($ProCatList as $rows){
                         ?>
@@ -383,6 +275,7 @@
                         </li>
                         <?php 
                             }
+                        endif
                         ?>
 
 
@@ -457,5 +350,53 @@
 
 <script type="text/javascript" src="<?php echo base_url();?>public/assets/js/theme-script.js"></script>
 
+
+
+
+<!-- For Cart -->
+<!-- jquery-3.2.1.js -->
+<script type="text/javascript" src="<?php echo base_url();?>public/assets/js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+    
+     $(document).ready(function(){
+        $('.add_cart').click(function(){
+            var product_id    = $(this).data("productid");
+            var product_name  = $(this).data("productname");
+            var product_price = $(this).data("productprice");
+            var quantity      = $('#' + product_id).val();
+            $.ajax({
+                url : "<?php echo site_url('front/add_to_cart');?>",
+                method : "POST",
+                data : {product_id: product_id, product_name: product_name, product_price: product_price, quantity: quantity},
+                success: function(data){
+                    //alert("Hello");
+                    $('#detail_cart').html(data);
+                    $('#count_cart').load("<?php echo site_url('front/load_cart_count');?>");
+                }
+            });
+        });
+ 
+         
+        $('#detail_cart').load("<?php echo site_url('front/load_cart');?>");
+
+        $('#count_cart').load("<?php echo site_url('front/load_cart_count');?>");
+
+        
+ 
+         
+        $(document).on('click','.romove_cart',function(){
+            var row_id=$(this).attr("id"); 
+            $.ajax({
+                url : "<?php echo site_url('front/delete_cart');?>",
+                method : "POST",
+                data : {row_id : row_id},
+                success :function(data){
+                    $('#detail_cart').html(data);
+                    $('#count_cart').load("<?php echo site_url('front/load_cart_count');?>");
+                }
+            });
+        });
+    });
+</script>
 </body>
 </html>

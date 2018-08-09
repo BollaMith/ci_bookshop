@@ -11,6 +11,7 @@
                                     <div class="product-img-thumb" id="gallery_01">
                                         <ul class="owl-carousel" data-items="3" data-nav="true" data-dots="false" data-margin="20" data-loop="true">
                                 						<?php
+                                                        if($pro_detail_gallery!=false):
 											foreach($pro_detail_gallery as $pdg){
 												?>
 												<li>
@@ -19,7 +20,8 @@
                                                 </a>
 											</li>
 												<?php
-											}											
+											}
+                                            endif											
 											?>	
 
                                         </ul>
@@ -87,19 +89,13 @@
                                     </div>
                                     <div class="attributes">
                                         <div class="attribute-label">Qty:</div>
-                                        <div class="attribute-list product-qty">
-                                            <div class="qty">
-                                                <input id="option-product-qty" type="text" value="1">
-                                            </div>
-                                            <div class="btn-plus">
-                                                <a href="#" class="btn-plus-up">
-                                                    <i class="fa fa-caret-up"></i>
-                                                </a>
-                                                <a href="#" class="btn-plus-down">
-                                                    <i class="fa fa-caret-down"></i>
-                                                </a>
-                                            </div>
-                                        </div>
+                                        <div class="attribute-list" style="border-radius: 0px; width: 395px;">
+                                            <input id="option-product-qty" style="border-radius: 0px; width: 395px;" type="number" min="1" step="1" name="quantity" id="<?php echo $pro_detail[0]['pro_id'];?>" value="1" class="quantity form-control">
+
+
+
+
+                                            
                                     </div>
                                     <div class="attributes">
                                         <div class="attribute-label">Size: </div>								
@@ -123,7 +119,15 @@
                                 </div>
                                 <div class="form-action">
                                     <div class="button-group">
-                                        <a class="btn-add-cart" href="#">Add to cart</a>
+                                        <!-- <a class="btn-add-cart" href="#">Add to cart</a> -->
+                                        
+                                            <input type="hidden" name="quantity" id="<?php echo $pro_detail[0]['pro_id']; ?>" value="1" class="quantity form-control">
+
+
+                                            <button class="add_cart btn-add-cart btn-block" 
+                                            data-productid="<?php echo  $pro_detail[0]['pro_id']; ?>" 
+                                            data-profeature="<?php echo  $pro_detail[0]['pro_feature']; ?>" data-productname="<?php echo  $pro_detail[0]['pro_name']; ?>" data-productprice="<?php echo  $price;?>">Add To Cart</button>
+
                                     </div>
                                     <div class="button-group">
                                         <a class="wishlist" href="#"><i class="fa fa-heart-o"></i>

@@ -61,17 +61,22 @@
 														<a title="Quick view" class="search" href="#"></a>
 												</div>
 												<div class="add-to-cart">
-													<a title="Add to Cart" href="#">Add to Cart</a>
+													<input type="hidden" name="quantity" id="<?php echo $rows['pro_id']; ?>" value="1" class="quantity form-control">
+
+													<?php
+                                 $sellPrice=$rows['pro_price']-($rows['pro_price']*$rows['pro_discount'])/100;
+                                $price=round($sellPrice,2);
+                                 ?>
+													<!-- <a title="Add to Cart" href="#">Add to Cart</a> -->
+													<button class="add_cart btn btn-success btn-block" data-productid="<?php echo  $rows['pro_id']; ?>" 
+													data-profeature="<?php echo  $rows['pro_feature']; ?>" data-productname="<?php echo  $rows['pro_name']; ?>" data-productprice="<?php echo  $price;?>">Add To Cart</button>
 												</div>
 											</div>
 											<div class="right-block">
 												<h5 class="product-name">
 													<a href="<?php echo site_url();?>detail"><?php echo $rows['pro_name'];  ?>
 													</a></h5>
-													<?php
-                                 $sellPrice=$rows['pro_price']-($rows['pro_price']*$rows['pro_discount'])/100;
-                                $price=round($sellPrice,2);
-                                 ?>
+													
 
 
 												<div class="content_price">
